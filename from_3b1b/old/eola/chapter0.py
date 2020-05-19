@@ -799,11 +799,11 @@ class ProfessorsTry(Scene):
         self.play(Blink(morty))
 
 
-class ExampleMatrixMultiplication(NumericalMatrixMultiplication):
-    CONFIG = {
-        "left_matrix" : [[-3, 1], [2, 5]],
-        "right_matrix" : [[5, 3], [7, -3]]
-    }
+# class ExampleMatrixMultiplication(NumericalMatrixMultiplication):
+#     CONFIG = {
+#         "left_matrix" : [[-3, 1], [2, 5]],
+#         "right_matrix" : [[5, 3], [7, -3]]
+#     }
 
 class TableOfContents(Scene):
     def construct(self):
